@@ -27,14 +27,14 @@ public class searchFlightStepDefinition extends BaseClass{
 	public void user_Fills_the_details() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    click(LoggedInPage_OR.onewayFlight);
-	    select(LoggedInPage_OR.passanger, "2");
-	    select(LoggedInPage_OR.deprtFrom, "London");
-	    select(LoggedInPage_OR.fromMonth, "June");
-	    select(LoggedInPage_OR.fromDay, "15");
-	    select(LoggedInPage_OR.arivingTo, "New York");
-	    select(LoggedInPage_OR.toMonth, "July");
-	    select(LoggedInPage_OR.toDay, "1");
-	    click(LoggedInPage_OR.businessClass); 
+	    select(LoggedInPage_OR.passanger, testDataValue.get("Passengers"));
+	    select(LoggedInPage_OR.deprtFrom, testDataValue.get("DepartFrom"));
+	    select(LoggedInPage_OR.fromMonth, testDataValue.get("FromMonth"));
+	    select(LoggedInPage_OR.fromDay, testDataValue.get("FromDate"));
+	    select(LoggedInPage_OR.arivingTo, testDataValue.get("ArrivingTo"));
+	    select(LoggedInPage_OR.toMonth, testDataValue.get("toMonth"));
+	    select(LoggedInPage_OR.toDay, testDataValue.get("toDate"));
+	    click(LoggedInPage_OR.businessClass);
 	}
 
 	@When("^Clicks on Continue$")
