@@ -13,7 +13,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Programs_WorkSpace\\MVNCucumberSelenium\\src\\test\\java\\Features",
+@CucumberOptions(features = ".\\src\\test\\java\\Features",
 		glue = "StepDefinitions",
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/reports.html"},
 		monochrome = true)
@@ -22,11 +22,11 @@ public class RunnerClass {
 	
 	@BeforeClass
 	public static void readData() throws Exception {
-		BaseClass.readTestDataFile("C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Programs_WorkSpace\\MVNCucumberSelenium\\TestData\\NewToursTestData.xlsx", "1");
+		BaseClass.readTestDataFile(System.getProperty("user.dir")+"\\TestData\\NewToursTestData.xlsx", "1");
 	}
 	
 	@AfterClass
 	public static void writeExtentReport() {
-		Reporter.loadXMLConfig(new File("C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Programs_WorkSpace\\MVNCucumberSelenium\\Config\\config.xml"));	
+		Reporter.loadXMLConfig(new File(".\\Config\\config.xml"));	
 	}
 }

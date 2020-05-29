@@ -74,3 +74,41 @@
 2020-05-28 15:52:40 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name='findFlights']
 2020-05-28 15:52:40 INFO  BaseClass:107 - Element is displayed on the page:- By.xpath: //*[contains(@src,'selectflight')]
 2020-05-28 15:52:42 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name="reserveFlights"]
+2020-05-29 08:29:45 INFO  BaseClass:36 - Chromebrowser is up and running
+2020-05-29 08:29:45 FATAL BaseClass:53 - Unable to open URLnull value in entry: url=null
+2020-05-29 08:30:13 FATAL BaseClass:63 - Unable to Entered the value into the textbox having locator:-By.xpath: //*[@name='userName']
+2020-05-29 08:30:13 FATAL BaseClass:63 - Unable to Entered the value into the textbox having locator:-By.xpath: //*[@name='password']
+2020-05-29 08:30:13 FATAL BaseClass:72 - Unable to click on the element having locator:- By.xpath: //*[@name='login']
+2020-05-29 08:43:56 INFO  BaseClass:36 - Chromebrowser is up and running
+2020-05-29 08:43:58 INFO  BaseClass:51 - Opened URl:- http://newtours.demoaut.com/
+2020-05-29 08:43:59 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='userName']
+2020-05-29 08:43:59 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='password']
+2020-05-29 08:44:30 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name='login']
+2020-05-29 08:44:36 INFO  BaseClass:107 - Element is displayed on the page:- By.linkText: SIGN-OFF
+2020-05-29 08:44:36 INFO  BaseClass:107 - Element is displayed on the page:- By.xpath: //img[contains(@src,'flightfinder')]
+2020-05-29 08:44:36 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@value='oneway']
+2020-05-29 08:45:06 FATAL BaseClass:91 - Unable to select the 2.0 using:- By.xpath: //*[@name='passCount']
+2020-05-29 08:45:07 INFO  BaseClass:89 - Select the London using:- By.xpath: //*[@name='fromPort']
+2020-05-29 08:45:07 INFO  BaseClass:89 - Select the June using:- By.xpath: //*[@name='fromMonth']
+2020-05-29 08:45:37 FATAL BaseClass:91 - Unable to select the 15.0 using:- By.xpath: //*[@name='fromDay']
+2020-05-29 08:45:37 INFO  BaseClass:89 - Select the New York using:- By.xpath: //*[@name='toPort']
+2020-05-29 08:45:38 INFO  BaseClass:89 - Select the July using:- By.xpath: //*[@name='toMonth']
+2020-05-29 08:46:08 FATAL BaseClass:91 - Unable to select the 1.0 using:- By.xpath: //*[@name='toDay']
+2020-05-29 08:46:08 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@value='Business']
+2020-05-29 08:46:10 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name='findFlights']
+2020-05-29 08:46:10 INFO  BaseClass:107 - Element is displayed on the page:- By.xpath: //*[contains(@src,'selectflight')]
+2020-05-29 08:46:11 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name="reserveFlights"]
+2020-05-29 08:49:18 INFO  BaseClass:36 - Chromebrowser is up and running
+2020-05-29 08:49:20 INFO  BaseClass:51 - Opened URl:- http://newtours.demoaut.com/
+2020-05-29 08:49:21 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='userName']
+2020-05-29 08:49:21 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='password']
+2020-05-29 08:51:36 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name='login']
+2020-05-29 08:52:45 INFO  BaseClass:36 - Chromebrowser is up and running
+2020-05-29 08:52:47 INFO  BaseClass:51 - Opened URl:- http://newtours.demoaut.com/
+2020-05-29 08:52:48 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='userName']
+2020-05-29 08:52:49 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='password']
+2020-05-29 08:55:03 INFO  BaseClass:36 - Chromebrowser is up and running
+2020-05-29 08:55:05 INFO  BaseClass:51 - Opened URl:- http://newtours.demoaut.com/
+2020-05-29 08:55:05 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='userName']
+2020-05-29 08:55:06 INFO  BaseClass:61 - Entered the - tutorial - into the textbox having locator:- By.xpath: //*[@name='password']
+2020-05-29 08:55:13 INFO  BaseClass:70 - Clicked on the element having locator:- By.xpath: //*[@name='login']
